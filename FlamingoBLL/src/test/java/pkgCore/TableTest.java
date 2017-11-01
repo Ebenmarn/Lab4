@@ -14,6 +14,9 @@ public class TableTest {
 		t.AddPlayerToTable(p1);
 		t.AddPlayerToTable(p2);
 		assertEquals(t.GetPlayerFromTable(p1),p1);
+		assertEquals(t.GetPlayerFromTable(p2),p2);
+		t.RemovePlayerFromTable(p1);
+		t.RemovePlayerFromTable(p2);
 	}
 
 	
