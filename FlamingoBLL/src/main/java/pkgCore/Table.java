@@ -17,18 +17,18 @@ public class Table {
 	
 	public void AddPlayerToTable(Player p)
 	{
-		//TODO: Implement this method
+		
 		PlayersMap.put(p.getPlayerID(), p);
 	}
 	public void RemovePlayerFromTable(Player p)
 	{
-		//TODO: Implement this method
+
 		PlayersMap.remove(p.getPlayerID());
 	}
 	
 	public Player GetPlayerFromTable(Player p)
 	{
-		//TODO: Implement this method	
+		
 		return PlayersMap.get(p.getPlayerID());
 	}
 }
