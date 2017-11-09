@@ -1,68 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ButtonBar?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane prefHeight="589.0" prefWidth="483.0" styleClass="background" stylesheets="@GameTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.BlackJackController">
+<BorderPane prefHeight="589.0" prefWidth="483.0" stylesheets="@GameTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.BlackJackController">
    <top>
-      <AnchorPane prefHeight="179.0" prefWidth="490.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="188.0" layoutY="11.0" text="BlackJack" />
-            <ImageView layoutX="338.0" layoutY="39.0">
-               <image>
-                  <Image url="@../../../img/1.png" />
-               </image>
-            </ImageView>
-            <ImageView layoutX="418.0" layoutY="39.0">
-               <image>
-                  <Image url="@../../../img/1.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
-   </top>
-   <center>
-      <AnchorPane prefHeight="100.0" prefWidth="483.0" BorderPane.alignment="CENTER">
-         <children>
-            <ImageView layoutX="115.0" layoutY="60.0">
-               <image>
-                  <Image url="@../../../img/card_back.png" />
-               </image>
-            </ImageView>
-            <ImageView layoutX="209.0" layoutY="60.0">
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="384.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../img/card_placeholder.png" />
                </image>
             </ImageView>
-         </children>
-      </AnchorPane>
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="289.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/card_placeholder.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="27.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/card_back.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="131.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/card_placeholder.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
    </center>
    <bottom>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <ButtonBar layoutX="32.0" layoutY="146.0" prefHeight="40.0" prefWidth="428.0">
-              <buttons>
-                <Button mnemonicParsing="false" text="Sit" />
-                  <Button mnemonicParsing="false" text="Hit" />
-                  <Button mnemonicParsing="false" text="Stand" />
-                  <Button mnemonicParsing="false" text="Leave" />
-              </buttons>
-            </ButtonBar>
-            <ImageView layoutX="329.0" layoutY="20.0">
+            <Button layoutX="381.0" layoutY="153.0" mnemonicParsing="false" prefWidth="90.0" text="Stand" />
+            <Button layoutX="277.0" layoutY="153.0" mnemonicParsing="false" prefWidth="90.0" text="Hit" />
+            <Button layoutX="164.0" layoutY="153.0" mnemonicParsing="false" prefWidth="90.0" text="Leave" />
+            <Button layoutX="164.0" layoutY="153.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="90.0" text="Sit" />
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="355.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../img/50.png" />
-               </image>
-            </ImageView>
-            <ImageView layoutX="407.0" layoutY="20.0">
+                  <Image url="@../../../img/card_placeholder.png" />
+               </image></ImageView>
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="283.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../img/4.png" />
-               </image>
-            </ImageView>
+                  <Image url="@../../../img/card_placeholder.png" />
+               </image></ImageView>
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="211.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/card_placeholder.png" />
+               </image></ImageView>
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="139.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/card_placeholder.png" />
+               </image></ImageView>
+            <ImageView fitHeight="96.0" fitWidth="78.0" layoutX="67.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/card_placeholder.png" />
+               </image></ImageView>
          </children>
       </AnchorPane>
    </bottom>
